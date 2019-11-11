@@ -6,7 +6,7 @@ The `nameservice` module:
 
 There are three concepts within the nameservice module:
  - Storing name value data
- - Managing the buying and ownership of names
+ - Managing the buying, selling, and ownership of names
  - Querying existing name information from the Store
 
 ### Storing name value data
@@ -21,12 +21,14 @@ value to which it will resolve.
 ### Buying and selling names
 
 The nameservice module provides functionality to allow the
-purchasing of names which are either unowned or from the current
-owner. Name ownership is determined as follows:
+purchasing of names from the current owner. It also provides
+for buying names which are not currently owned. 
+
+Name ownership is determined as follows:
  - The owner of a given name is the current highest bidder.
- - When buying a name the new owner will pay the previous owner a bid amount higher than the previous owner paid.
+ - When buying a name, the new owner will pay the previous owner a bid amount higher than the previous owner paid.
  - If a name is not owned, the buyer must burn a MinPrice amount to aquire the name. 
- - The current owner of a name may elect to relinquish ownership by deleting it from the Store.
+ - The current owner of a name may choose to relinquish ownership by deleting it from the Store.
  
 ### Querying information from the Store
 

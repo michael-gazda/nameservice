@@ -1,8 +1,9 @@
-# Nameservice Quick User Guide
+# Nameservice Quick Start Guide
 
 ## Quick start to using the nameservice module
 
-In order to begin using the nameservice module there are several necessary steps
+To start using the nameservice module in your
+application there are several necessary steps.
 
  - Import and initialize AppModules for each used module
  - Register codecs from all modules used
@@ -11,19 +12,16 @@ In order to begin using the nameservice module there are several necessary steps
 
 ### Step One
 
+ - Create a new app.go file for your application
  - Define the app name. Example: `const appName = "nameservice"`
- - Define names of the data directories for the app
- - Define module.ModuleBasicManager
-		- Sets up basic module elements
-			- codec registration
-			- genesis creation/verification
+ - Import the nameservice module and other needed modules in the import block.
 
 ### Step Two
  - Extending BaseApp
-		- Create a struct representing your application. Example: `type nameServiceApp struct`
-			- Add all the stores that will be used in your modules
-			- Add the keepers of the modules used
-			- Add the module manager
+     + Create a struct representing your application. Example: `type nameServiceApp struct`
+	     * Add all the stores that will be used in your modules
+		 * Add the keepers of the modules used
+		 * Add the module manager
 
 ### Step Three
  - Create a  constructor for your Application (func new<app_name>)

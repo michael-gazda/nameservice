@@ -1,6 +1,6 @@
 # The Keeper
 
-Keeper maintains the link to storage and exposes getter/setter methods for
+The Keeper maintains the link to storage and exposes getter/setter methods for
 the various parts of the state machine. The nameservice module has a single
 keeper which connects the nameservice to the bank, codec and types modules.
 
