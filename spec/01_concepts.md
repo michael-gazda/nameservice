@@ -7,7 +7,7 @@ The `nameservice` module:
 There are three concepts within the nameservice module:
  - Storing name value data
  - Managing the buying and ownership of names
- - Querying existing name information from the store
+ - Querying existing name information from the Store
 
 ### Storing name value data
 
