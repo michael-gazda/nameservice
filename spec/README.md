@@ -26,4 +26,7 @@ Features the module currently supports include:
 
 1. **[Concepts](01_concepts.md)**
 2. **[State](02_state.md)**
-3. **[Messages](03_messages.md)**
+3. **[Keepers](03_keepers.md)**
+4. **[Messages](04_messages.md)**
+5. **[Query Types](05_queriers.md)**
+6. **[Future Improvements](06_future_improvements.md)**

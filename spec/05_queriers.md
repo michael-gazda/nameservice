@@ -1,4 +1,4 @@
-# Queriers
+# Query Types
 
 ## Queries
 
