@@ -30,3 +30,9 @@ Features the module currently supports include:
 4. **[Messages](04_messages.md)**
 5. **[Query Types](05_queriers.md)**
 6. **[Future Improvements](06_future_improvements.md)**
+7. **[Quick Start Guide](Quick_Start_Guide.md)**
+    - [Create Application](Quick_Start_Guide.md#Step One: Create a new application)
+    - [Extending the BaseApp](Quick_Start_Guide.md)#Step Two: Extending the BaseApp)
+    - [Create a constructor](Quick_Start_Guide.md)#Step Three: Create a constructor for your application)
+    - [Define Application initChainer](Quick_Start_Guide.md)#Step Four: Define methods for initChainer, BeginBlocker, EndBlocker, and LoadHeight)
+    - [Generate amino Codec](Quick_Start_Guide.md)#Step Five: Generate an amino *codec.Codec)
